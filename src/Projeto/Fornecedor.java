@@ -3,7 +3,7 @@ package Projeto;
 public class Fornecedor {
 
     class Fornecedor implements Pagamento {
-        protected String nome; cá
+        protected String nome; 
         protected String dataCadastro;
         protected String dataAlteracao;
         protected String dataCalculo;
