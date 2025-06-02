@@ -15,7 +15,7 @@ public class CLT {
             this.descontoINSS = this.salarioBruto * 0.08;
         }
 
-        @Override
+        
         public void calcularDescontoTotal() {
             super.calcularDescontoTotal();
             calcularDescontoINSS();
@@ -23,7 +23,7 @@ public class CLT {
         }
 
 
-        @Override
+   
         public void calcularSalario() {
             super.calcularSalario();
             System.out.println("  (CLT) INSS: R$" + String.format("%.2f", this.descontoINSS));
