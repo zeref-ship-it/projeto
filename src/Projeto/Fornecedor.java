@@ -22,7 +22,7 @@ public class Fornecedor {
         }
 
 
-        @Override
+        
         public void calcularSalario() {
             System.out.println("Pagamento ao Fornecedor " + this.nomeEmpresa + " (CNPJ: " + this.cnpj + "): R$" + String.format("%.2f", this.salario));
         }
