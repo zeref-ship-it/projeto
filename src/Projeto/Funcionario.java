@@ -44,7 +44,7 @@ class Funcionario implements Pagamento {
     }
 
 
-    @Override
+  
     public void calcularSalario() {
         calcularSalarioBruto();
         calcularDescontoIR();
