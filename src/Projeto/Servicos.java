@@ -44,7 +44,7 @@ public class Servicos {
             this.descontoTotal = this.descontoIR + this.descontoISS + this.descontoINSS;
         }
 
-        @Override
+        
         public void calcularSalario() {
             calcularDescontosServicos();
             double valorLiquido = this.salarioBruto - this.descontoTotal;
