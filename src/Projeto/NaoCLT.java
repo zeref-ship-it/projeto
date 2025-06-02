@@ -19,7 +19,7 @@ public class NaoCLT {
         }
 
 
-        @Override
+        
         public void calcularDescontoTotal() {
             super.calcularDescontoTotal();
             calcularDescontoISS();
@@ -27,7 +27,7 @@ public class NaoCLT {
         }
 
 
-        @Override
+      
         public void calcularSalario() {
             super.calcularSalario();
             System.out.println("  (Não CLT) ISS: R$" + String.format("%.2f", this.descontoISS));
