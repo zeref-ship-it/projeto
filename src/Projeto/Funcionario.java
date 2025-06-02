@@ -31,11 +31,11 @@ class Funcionario implements Pagamento {
 
 
     public void calcularDescontoIR() {
-        this.descontoIR = this.salarioBruto * 0.10; // Exemplo: 10% de IR
+        this.descontoIR = this.salarioBruto * 0.10; 
     }
 
     public void calcularDescontoTotal() {
-        this.descontoTotal = this.descontoIR; // Adicionar outros descontos aqui
+        this.descontoTotal = this.descontoIR; 
     }
 
 
